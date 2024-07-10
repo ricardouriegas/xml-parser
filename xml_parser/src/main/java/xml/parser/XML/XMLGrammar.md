@@ -1,7 +1,5 @@
 # XML Context-Free Grammar
 
-<!-- TODO: Do the DTD CFG and erase XML things -->
-
 <!-- DTD will gonna be implement in future -->
 ## XML document
 

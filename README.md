@@ -13,7 +13,6 @@ After re reading i saw that i need both XML and DTD parser, this because i need 
 ```xml
 <!ELEMENT database (table+)>
 <!ELEMENT table (name, columns, rows)>
-<!ELEMENT name (#PCDATA)>
 <!ELEMENT columns (column+)>
 <!ELEMENT column (name, type, constraints?)>
 <!ELEMENT name (#PCDATA)>

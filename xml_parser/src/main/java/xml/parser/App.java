@@ -16,18 +16,22 @@ import xml.parser.DTD.*;
 public final class App {
     /**
      * Reads the parameter given when 
-     * @param args The arguments of the program.
+     * @param args The file path of the XML file to be parsed.
      */
     public static void main(String[] args) throws IOException {
         if (args.length != 0) {
             runFile(args[0]); 
         } else {
-            System.out.println("Usage: java -jar project.jar [script]");
+            System.out.println("Usage: java -jar project.jar [xml_file_path]");
             System.exit(64);
         }
     }
 
     private static void run(String source) {
+        //! the XML parser should have 3 steps of object
+        // 1. Lexical Analyzer
+        // 2. Syntax Analyzer
+        // 3. Element Tree
         
     }
 

@@ -1,5 +1,7 @@
 package xml.parser.XML;
 
+// TODO: maybe is better to only use value instead of Number and String
+
 public enum TokenType {
     LEFT_PAREN, RIGHT_PAREN,
 
