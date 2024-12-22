@@ -1,4 +1,5 @@
-# XML Parser
+# XML Parser (DEPRECATED)
+The project was did by my teammate for the main project. [Here you can find it](https://github.com/JNArrazola/XML-DTD_Parser)
 
 This is a Vanilla XML parser using Java, the reason of this project is because i need to do on for my other project [SQL Parser](https://github.com/ricardouriegas/sql_parser). This XML parser will be use to store all the constraints of the database of the another project.
 
